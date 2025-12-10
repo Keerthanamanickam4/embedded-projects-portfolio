@@ -1,0 +1,30 @@
+# ESP32 / ESP-IDF
+build/
+**/build/
+workspace/
+sdkconfig
+sdkconfig.old
+cmake-build*
+
+# IDE files
+.vscode/
+.idea/
+
+# Compiled objects
+*.o
+*.obj
+*.elf
+*.bin
+*.map
+*.log
+
+# MPLAB X IDE
+nbproject/private/
+dist/
+build/
+*.hex
+*.cof
+
+# Temporary
+*.tmp
+*.cache
